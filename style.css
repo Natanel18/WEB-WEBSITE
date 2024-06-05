@@ -1,0 +1,409 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins' , sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #000;
+  color: #fff;  
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./NETFLIX\ BILD\ 2.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+  .header-content  h1 h1{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  .header-content  h1 header-content h1{
+    font-size: 300px;
+    line-height: 300px;
+    font-weight: 600;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+
+  .email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+  }
+  .email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px ;
+  }
+  .features{
+padding: 50px 12%;
+font-size: 22px;
+  }
+  .row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+
+  .text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+  }
+  .img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+  }
+  .img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .features11{
+    padding: 50px 12%;
+    font-size: 22px;
+      }
+      .row11{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+      }
+    
+      .text-col11{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+      }
+      .img-col11{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+      }
+      .img-col11 img{
+        display: block;
+        width: 90%;
+        margin: auto;
+      }
+    
+      .features11 h4{
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+    
+      
+      .features11{
+        padding: 50px 12%;
+        font-size: 22px;
+          }
+          .row11{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 50px 0;
+          }
+        
+          .text-col11{
+            flex-basis: 50%;
+            margin-bottom: 20px;
+          }
+          .img-col11{
+            flex-basis: 50%;
+            margin-bottom: 20px;
+          }
+          .img-col11 img{
+            display: block;
+            width: 90%;
+            margin: auto;
+          }
+        
+          .features11 h4{
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+        
+          .features1122{
+            padding: 50px 12%;
+            font-size: 22px;
+              }
+              .row1122{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 50px 0;
+              }
+            
+              .text-col1122{
+                flex-basis: 50%;
+                margin-bottom: 20px;
+              }
+              .img-col1122{
+                flex-basis: 50%;
+                margin-bottom: 20px;
+              }
+              .img-col1122 img{
+                display: block;
+                width: 90%;
+                margin: auto;
+              }
+            
+              .features1122 h5{
+                font-size: 50px;
+                font-weight: 600;
+                margin-bottom: 20px;
+              }
+              
+              body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+              }
+            
+              .navbar {
+                background-color: #333;
+                overflow: hidden;
+              }
+            
+              .navbar a {
+                float: left;
+                display: block;
+                color: #f70606;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+            
+              .navbar a:hover {
+                background-color: rgb(250, 7, 7);
+                color: black;
+              }
+              h2 {
+                text-align: center;
+              }
+            
+              .container21{
+                width: 50%;
+                height: 500px;
+                display: flex;
+                gap: 5px;
+              }
+              .container21 img{
+                width: 10%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                border: 2px solid white;
+                transition: all ease-out 0.5s;
+                cursor: pointer;
+                margin: 2px;
+              }
+              .container21 img:hover{
+                width: 100%;
+              }
+              
+
+              .centered-text {
+                text-align: center;
+              }
+            
+              .big-bold {
+                font-size: 50px;
+                font-weight: bold;
+              }
+
+              body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #030000;
+              }
+              
+              .container {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 50px;
+              }
+              
+              h1 {
+                color: rgb(250, 245, 245);
+              }
+              
+              .price {
+                background-color: rgb(5, 0, 0);
+                border-radius: 10px;
+                padding: 20px;
+                margin-top: 20px;
+                box-shadow: 0 0 10px rgba(245, 243, 243, 0.1);
+              }
+              
+              .price h2 {
+                color: rgb(8, 1, 1);
+              }
+              
+              .price p {
+                color: rgb(250, 3, 3);
+                margin-top: 10px;
+              }
+              
+              body {
+                height: 100vh;
+                background: #e72907;
+                background: linear-gradient(120deg, #080808, #020202 100%);
+                font-size: 16px;
+                margin: 0;
+                padding: 0;
+                font-family: 'Jua', sans-serif;
+            }
+        
+           body {
+
+     
+    
+     line-height: 1.3;
+     font-family: sans-serif;
+     font-size: 100%;
+}
+
+
+#Gesamt {
+	  overflow:hidden;
+      background:  #EDECEC;
+	  width: 95%;
+      margin: 1% auto;
+}
+
+.kopf {
+      background-color: #5F4F5B;
+      color: white;
+	  padding: 2%;
+}
+
+
+
+
+.inhalt {
+      background-color: #fff;
+	  padding: 2%;
+
+}
+
+a:link, a:visited {
+      color: #f00;
+      text-decoration: none;
+}
+
+.navigation ul {
+	    padding-left: 0;
+}
+
+.navigation li {
+	    display: block;
+		width: 70%;
+		list-style: none;
+		padding: 5% 0 0 3%;
+
+
+}
+
+.sprung {
+	    display: block;
+	    padding: 4% 0;
+		text-align:center;
+	  }
+
+img {
+	max-width:100%;
+}
+
+@media print{
+	img {
+		
+		
+
+		width:40%;
+	}
+	.sprung, .navigation {
+	 display:none;
+	}
+}
+
+
+
+@media screen and (min-width:600px) {
+	  .sprung {
+
+		display:none;
+
+	  }
+	  .navigation {
+
+			float:left;
+			width:25%;
+			padding:2%;
+
+      }
+
+	  .inhalt {
+
+		float:right;
+		width:65%;
+		padding:3%;
+
+      }
+
+	  .navigation li {
+		  display:list-item;
+		  list-style-type:square;
+		  border-bottom:dotted #FF0000 2px;
+		  list-style-position:inside;
+		  color: #F00;
+	  }
+
+	  .navigation ul {
+	    padding-left: 6%;
+
+	  }
+
+}
+
+
+
